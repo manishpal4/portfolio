@@ -6,7 +6,7 @@ const Home = () => {
     <>
       <div className="flex flex-col landscape:flex-row">
         {/* Left side: Text content */}
-        <div className="flex flex-col justify-center items-center w-full pt-48 my-10 landscape:w-1/2 landscape:h-screen">
+        <div className="flex flex-col justify-center items-center w-full pt-40 my-10 landscape:w-1/2 landscape:h-screen">
           <h1 className="text-white font-black text-5xl text-center">
             Designer | Developer
           </h1>
