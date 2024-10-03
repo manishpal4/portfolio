@@ -4,7 +4,6 @@ import { Navbar } from "./Components/Navbar";
 import Home from "./Components/Home"; // Import the Home component
 import Timepass from "./Components/Timepass";
 import { Works } from "./Components/Works";
-import Bg from "./assets/Bg.png"
 import { My_Stack } from "./Components/My_Stack";
 
 function App() {

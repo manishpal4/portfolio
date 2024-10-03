@@ -5,7 +5,7 @@ import { IoLogoLinkedin } from "react-icons/io5";
 import { BsInstagram } from "react-icons/bs";
 import { FiMenu, FiX } from "react-icons/fi"; // For the hamburger menu icons
 import { NavLink } from "react-router-dom";
-import Logo from "./logo"; // Import the Logo component
+import Logo from "..assets/Logo1.png"; // Import the Logo component
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
