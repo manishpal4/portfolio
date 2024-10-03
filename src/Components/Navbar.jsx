@@ -15,7 +15,7 @@ export const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-16 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-1/2 z-20 bg-black/30 backdrop-blur-sm px-4 py-3 rounded-lg">
+    <nav className="fixed top-16 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2/3 z-20 bg-black/30 backdrop-blur-sm px-4 py-3 rounded-lg">
       <div className="flex justify-between items-center">
         {/* Logo Section (Clickable Link to Home) */}
         <Logo />
@@ -70,16 +70,16 @@ export const Navbar = () => {
 
         {/* Social Media Links (Always Visible) */}
         <div className="flex gap-4 text-white text-2xl">
-          <a href="https://medium.com" className="hover:text-gray-400">
+          <a href="https://medium.com/@Mann_eei" className="hover:text-gray-400">
             <AiFillMediumCircle />
           </a>
-          <a href="https://github.com" className="hover:text-gray-400">
+          <a href="https://github.com/manishpal4" className="hover:text-gray-400">
             <FaGithub />
           </a>
-          <a href="https://linkedin.com" className="hover:text-gray-400">
+          <a href="https://www.linkedin.com/in/manish0kumar/" className="hover:text-gray-400">
             <IoLogoLinkedin />
           </a>
-          <a href="https://instagram.com" className="hover:text-gray-400">
+          <a href="https://www.instagram.com/mann_eei/" className="hover:text-gray-400">
             <BsInstagram />
           </a>
         </div>

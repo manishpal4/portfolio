@@ -8,7 +8,7 @@ import { My_Stack } from "./Components/My_Stack";
 
 function App() {
   return (
-    <div className="h-screen w-full  bg-black">
+    <div className=" w-full  bg-black">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} /> {/* Home Route */}
