@@ -1,6 +1,6 @@
 import React from 'react';
 import profile from "../assets/profile.jpg";
-import { IoIosMail } from "react-icons/io";
+import Contact from './contact';
 
 
 function Footer() {
@@ -22,16 +22,7 @@ function Footer() {
 
 
       <div className=' bg-black overflow-hidden w-200 h-200 rounded-xl text-white py-10'>
-        <h1 className=' my-1 text-6xl'>
-            Let's talk
-        </h1>
-        <p>
-            I would love to hear your thoughts.
-        </p>
-
-        <button onClick={onClickHandler} className='bg-orange-600 gap-2 p-1 px-3 flex rounded-xl mt-4 text-xl'>
-         <span className='text-3xl '><IoIosMail /></span>   mail me
-        </button>
+        <Contact /> 
 
       </div>
       <hr className=' bg-white/30' />
@@ -40,7 +31,6 @@ function Footer() {
         <iframe 
           className='rounded-xl my-10 w-40 ' 
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27597.978325222844!2d76.84937031567785!3d30.158640248197134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390e4a4b98404f57%3A0x75ffae70833e8448!2sShahbad%2C%20Haryana%20136135!5e0!3m2!1sen!2sin!4v1728035948030!5m2!1sen!2sin" 
-         
           style={{border:"0"}} 
           loading="lazy" 
           referrerpolicy="no-referrer-when-downgrade">
