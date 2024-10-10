@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, HashRouter } from "react-router-dom";
+import {  HashRouter } from "react-router-dom";
 import App from "./App"; // Correctly import your App
 import "./index.css"; // Import your main CSS file
 
