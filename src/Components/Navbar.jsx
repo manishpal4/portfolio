@@ -57,15 +57,17 @@ export const Navbar = () => {
           </li>
           <li>
             <NavLink
-              to="/Timepass"
+              to="/Experience"
               className={({ isActive }) =>
                 isActive ? "font-bold text-lg underline" : "text-lg"
               }
               onClick={() => setIsOpen(false)}
             >
-              Timepass
+              Experience
             </NavLink>
           </li>
+          <a className="text-lg " href="https://chatgpt.com/c/6707b474-aafc-800a-b7eb-2b288f2ef782" target="_blank">Resume</a>
+          
         </ul>
 
         {/* Social Media Links (Always Visible) */}

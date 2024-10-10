@@ -11,12 +11,15 @@ const Home = () => {
             <h1 className="  text-white font-black text-5xl text-center">
               Designer | Developer
             </h1>
-            <p className=" text-white/30 text-center  p-5 landscape:text-white ">
+            <p className=" text-white/30 text-center  p-5 py-10 landscape:text-white ">
               A designer-developer is skilled in both design and coding. They
               create attractive, easy-to-use websites or apps and make sure they
               work properly. This combination helps them build digital
               experiences that look good and function well.
             </p>
+
+
+            
           </div>
         </div>
 

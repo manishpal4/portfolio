@@ -145,7 +145,7 @@ export const Works = () => {
 
             <div className=" flex-cols bg-black/30 rounded-lg px-8 py-5 mt-5 ">
               <a
-                href="https://github.com/manishpal4/imageEditing"
+                href="https://github.com/manishpal4/Bubble-Game"
                 target="_blank"
               >
                 <div className=" h-full">
@@ -180,13 +180,13 @@ export const Works = () => {
 
         <div className="lg:flex gap-24 mt-16">
           <div className="flex justify-center gap-5 mt-9">
-            <video className="h-72" autoPlay loop muted src={Ma}></video>
-            <video className="h-72" autoPlay loop muted src={Mc}></video>
+            <video className="h-80" autoPlay loop muted src={Ma}></video>
+            <video className="h-80" autoPlay loop muted src={Mc}></video>
           </div>
 
           <div className="flex justify-center gap-5 mt-9">
-            <video className="h-72" autoPlay loop muted src={Ab}></video>
-            <video className="h-72" autoPlay loop muted src={Ac}></video>
+            <video className="h-80" autoPlay loop muted src={Ab}></video>
+            <video className="h-80" autoPlay loop muted src={Ac}></video>
           </div>
         </div>
       </div>

@@ -22,6 +22,7 @@ function Footer() {
 
 
       <div className=' bg-black overflow-hidden w-200 h-200 rounded-xl text-white py-10'>
+        <h1 className='text-3xl text-white pb-4'>Contact Me.</h1>
         <Contact /> 
 
       </div>
