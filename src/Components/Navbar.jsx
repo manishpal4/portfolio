@@ -28,6 +28,7 @@ export const Navbar = () => {
         </div>
 
         {/* Navbar Links */}
+        <div className="font-heading">
         <ul
           className={`md:flex gap-6 text-white items-center md:static absolute bg-black/30 md:bg-transparent w-full md:w-auto left-0 transition-all duration-500 ease-in ${
             isOpen ? "top-16 flex flex-col px-4" : "top-[-200px] hidden"
@@ -69,6 +70,7 @@ export const Navbar = () => {
           <a className="text-lg " href="https://chatgpt.com/c/6707b474-aafc-800a-b7eb-2b288f2ef782" target="_blank">Resume</a>
           
         </ul>
+        </div>
 
         {/* Social Media Links (Always Visible) */}
         <div className="flex gap-4 text-white text-2xl">

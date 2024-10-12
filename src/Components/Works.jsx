@@ -14,7 +14,7 @@ export const Works = () => {
     <>
       <div className="pt-32 flex justify-center">
         <div className="mx-7 overflow-hidden p-5 bg-white/5 lg:flex flex-col items-center sm:justify-center rounded-lg">
-          <h1 className="text-white text-3xl text-center">Blender Render</h1>
+          <h1 className="text-white text-3xl text-center font-heading">Blender Render</h1>
           <p className="text-white/30 m-4 flex justify-center">
             Click on video to watch full version.
           </p>
@@ -98,7 +98,7 @@ export const Works = () => {
       <div className="mx-7 mt-20 overflow-hidden p-5 bg-white/5 lg:flex flex-col items-center sm:justify-center rounded-lg">
         <div>
           <div>
-            <h1 className="text-white text-3xl text-center">Projects</h1>
+            <h1 className="text-white text-3xl text-center font-heading">Projects</h1>
             <p className="text-white/30 m-4 flex justify-center">
               Click on projects to see repositories.
             </p>
@@ -108,11 +108,11 @@ export const Works = () => {
                 target="_blank"
               >
                 <div className=" h-full">
-                  <h1 className="text-5xl text-white pb-1">01</h1>
+                  <h1 className="text-5xl text-white pb-1 font-heading">01</h1>
                   <hr />
                 </div>
                 <div>
-                  <h1 className="text-white text-3xl py-4">AI AwnserBot.</h1>
+                  <h1 className="text-white font-heading text-3xl py-4">AI ChatBot.</h1>
                   <p className="text-white/30">
                     An openai api integrated awnser bot which give awnser with
                     high correctively like chat GPT.
@@ -127,11 +127,11 @@ export const Works = () => {
                 target="_blank"
               >
                 <div className=" h-full">
-                  <h1 className="text-5xl text-white pb-1">02</h1>
+                  <h1 className="text-5xl text-white pb-1 font-heading">02</h1>
                   <hr />
                 </div>
                 <div>
-                  <h1 className="text-white text-3xl py-4">
+                  <h1 className="text-white text-3xl font-heading py-4">
                     Simple Photo Manipulation app.
                   </h1>
                   <p className="text-white/30">
@@ -149,11 +149,11 @@ export const Works = () => {
                 target="_blank"
               >
                 <div className=" h-full">
-                  <h1 className="text-5xl text-white pb-1">03</h1>
+                  <h1 className="text-5xl text-white pb-1 font-heading">03</h1>
                   <hr />
                 </div>
                 <div>
-                  <h1 className="text-white text-3xl py-4">Bubble Game.</h1>
+                  <h1 className="text-white text-3xl py-4 font-heading">Bubble Game.</h1>
                   <p className="text-white/30">
                     A bubble game in which a number shows and you have to click
                     on bellow numbers to score point. In this project pure
@@ -167,7 +167,7 @@ export const Works = () => {
       </div>
 
       <div className="mx-7 mt-20 overflow-hidden p-5 bg-white/5 lg:flex flex-col items-center sm:justify-center rounded-lg">
-        <h1 className="text-white text-3xl text-center">Figma</h1>
+        <h1 className="text-white text-3xl text-center font-heading">Figma</h1>
         <p className="text-white/30 m-4 flex justify-center">
           Some Designs in Figma.
         </p>

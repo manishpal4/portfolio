@@ -9,6 +9,12 @@ export default {
       screens: {
         'landscape': {'raw': '(orientation: landscape)'},
       },
+      fontFamily:{
+        heading:['Ubuntu', "serif"],
+        p:["Ubuntu Mono", 'monospace']
+
+      }
+
     },
   },
   plugins: [],

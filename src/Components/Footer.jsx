@@ -14,7 +14,7 @@ function Footer() {
       <div className='flex pt-9 mb-7'>
         <img className='rounded-full h-14 w-14' src={profile} alt="Profile" />
         <div className='px-4'>
-          <h1 className='text-white text-2xl'>Manish Kumar</h1>
+          <h1 className='text-white text-2xl font-heading'>Manish Kumar</h1>
           <p className='text-white/30'>Creator | Learner</p>
         </div>
       </div>
@@ -22,7 +22,7 @@ function Footer() {
 
 
       <div className=' bg-black overflow-hidden w-200 h-200 rounded-xl text-white py-10'>
-        <h1 className='text-3xl text-white pb-4'>Contact Me.</h1>
+        <h1 className='text-3xl text-white pb-4 font-heading'>Contact Me.</h1>
         <Contact /> 
 
       </div>
@@ -41,7 +41,7 @@ function Footer() {
       
     </div>
     <div className='text-white'>
-    <p className='mx-10 pb-4'>copyright @manishkumar, all right reserved</p>
+    <p className='mx-10 pb-4 font-heading'>copyright @manishkumar, all right reserved</p>
   </div>
   </>
   );

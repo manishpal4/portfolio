@@ -96,7 +96,7 @@ export const My_Stack = () => {
                       alt={tool.name}
                     />
                   </div>
-                  <p className="pt-2 text-sm md:text-base">{tool.name}</p>
+                  <p className="pt-2 font-heading text-sm md:text-base">{tool.name}</p>
                 </div>
               </a>
             ))}

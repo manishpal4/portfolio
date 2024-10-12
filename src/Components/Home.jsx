@@ -7,8 +7,8 @@ const Home = () => {
       <div className="flex flex-col landscape:flex-row">
         {/* Left side: Text content */}
         <div className=" flex-col justify-center items-center w-full pt-32 my-10 landscape:w-1/2 landscape:h-screen">
-          <div className="landscape:w-5/6 md:w-1/2 landscape:mt-10 landscape:ml-8">
-            <h1 className="  text-white font-black text-5xl text-center">
+          <div className="landscape:w-5/6 md:w-1/2 landscape:mt-10 landscape:ml-8 mx-3">
+            <h1 className="  text-white leading-tight font-heading font-black text-5xl text-center">
               Designer | Developer
             </h1>
             <p className=" text-white/30 text-center  p-5 py-10 landscape:text-white ">

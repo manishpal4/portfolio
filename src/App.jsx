@@ -11,7 +11,7 @@ import Footer from "./Components/Footer";
 
 function App() {
   return (
-    <div className="relative w-full bg-black">
+    <div className="relative w-full bg-black ">
       <img className="absolute w-full z-0" src={Bg} alt="" /> {/* Set z-index to 0 */}
       <div className="relative "> {/* Higher z-index to ensure content is on top */}
         <Navbar />
