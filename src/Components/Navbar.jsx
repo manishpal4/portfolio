@@ -15,7 +15,7 @@ export const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-16 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2/3 z-20 bg-black/30 backdrop-blur-sm px-4 py-3 rounded-lg">
+    <nav className="fixed top-16 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 z-20 bg-black/30 backdrop-blur-sm px-4 py-3 rounded-lg">
       <div className="flex justify-between items-center">
         {/* Logo Section (Clickable Link to Home) */}
         <Logo />

@@ -14,7 +14,9 @@ export const Works = () => {
     <>
       <div className="pt-32 flex justify-center">
         <div className="mx-7 overflow-hidden p-5 bg-white/5 lg:flex flex-col items-center sm:justify-center rounded-lg">
-          <h1 className="text-white text-3xl text-center font-heading">Blender Render</h1>
+          <h1 className="text-white text-3xl text-center font-heading">
+            Blender Render
+          </h1>
           <p className="text-white/30 m-4 flex justify-center">
             Click on video to watch full version.
           </p>
@@ -98,7 +100,9 @@ export const Works = () => {
       <div className="mx-7 mt-20 overflow-hidden p-5 bg-white/5 lg:flex flex-col items-center sm:justify-center rounded-lg">
         <div>
           <div>
-            <h1 className="text-white text-3xl text-center font-heading">Projects</h1>
+            <h1 className="text-white text-3xl text-center font-heading">
+              Projects
+            </h1>
             <p className="text-white/30 m-4 flex justify-center">
               Click on projects to see repositories.
             </p>
@@ -112,7 +116,9 @@ export const Works = () => {
                   <hr />
                 </div>
                 <div>
-                  <h1 className="text-white font-heading text-3xl py-4">AI ChatBot.</h1>
+                  <h1 className="text-white font-heading text-3xl py-4">
+                    AI ChatBot.
+                  </h1>
                   <p className="text-white/30">
                     An openai api integrated awnser bot which give awnser with
                     high correctively like chat GPT.
@@ -153,7 +159,9 @@ export const Works = () => {
                   <hr />
                 </div>
                 <div>
-                  <h1 className="text-white text-3xl py-4 font-heading">Bubble Game.</h1>
+                  <h1 className="text-white text-3xl py-4 font-heading">
+                    Bubble Game.
+                  </h1>
                   <p className="text-white/30">
                     A bubble game in which a number shows and you have to click
                     on bellow numbers to score point. In this project pure
@@ -165,31 +173,66 @@ export const Works = () => {
           </div>
         </div>
       </div>
-
-      <div className="mx-7 mt-20 overflow-hidden p-5 bg-white/5 lg:flex flex-col items-center sm:justify-center rounded-lg">
+      <section className="mx-7 mt-20 overflow-hidden p-5 bg-white/5 lg:flex flex-col items-center sm:justify-center rounded-lg">
         <h1 className="text-white text-3xl text-center font-heading">Figma</h1>
         <p className="text-white/30 m-4 flex justify-center">
           Some Designs in Figma.
         </p>
-
         <p className="text-white pb-3">
           Some experiments with Figma and Jitter
         </p>
 
-        <video className="lg:h-96" autoPlay loop muted src={Mb}></video>
+        {/* Main video */}
+        <video
+          className="lg:h-96 mb-5"
+          autoPlay
+          loop
+          muted
+          src={Mb}
+          aria-label="Figma Experiment"
+        ></video>
 
-        <div className="lg:flex gap-24 mt-16">
+        {/* Container for smaller videos */}
+        <div className="lg:flex gap-5 mt-16 flex-wrap justify-center">
           <div className="flex justify-center gap-5 mt-9">
-            <video className="h-80" autoPlay loop muted src={Ma}></video>
-            <video className="h-80" autoPlay loop muted src={Mc}></video>
+            <video
+              className="h-80"
+              autoPlay
+              loop
+              muted
+              src={Ma}
+              aria-label="Figma Design A"
+            ></video>
+            <video
+              className="h-80"
+              autoPlay
+              loop
+              muted
+              src={Mc}
+              aria-label="Figma Design B"
+            ></video>
           </div>
 
           <div className="flex justify-center gap-5 mt-9">
-            <video className="h-80" autoPlay loop muted src={Ab}></video>
-            <video className="h-80" autoPlay loop muted src={Ac}></video>
+            <video
+              className="h-80"
+              autoPlay
+              loop
+              muted
+              src={Ab}
+              aria-label="Figma Design C"
+            ></video>
+            <video
+              className="h-80"
+              autoPlay
+              loop
+              muted
+              src={Ac}
+              aria-label="Figma Design D"
+            ></video>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };
