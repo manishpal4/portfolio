@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="flex flex-col landscape:flex-row min-h-screen">
       {/* Left side: Text content */}
-      <div className="flex-col justify-center h-2/3 items-center w-full pt-32 my-10 landscape:w-1/2 landscape:h-screen">
+      <div className="flex-col justify-end h-2/4 items-center w-full pt-32 my-10 landscape:w-1/2 landscape:h-screen">
         <div className="landscape:w-5/6 md:w-1/2 landscape:mt-10 landscape:ml-8 mx-3">
           <h1 className="text-white leading-tight font-heading font-black text-5xl text-center">
             Designer | Developer
@@ -20,8 +20,8 @@ const Home = () => {
       </div>
 
       {/* Right side: Spline scene */}
-      <div className="md:w-1/2 md:sticky md:h-screen w-full h-4/5 landscape:w-1/2  ">
-      <Spline scene="https://prod.spline.design/e6E9vGTn1iavPd1p/scene.splinecode" />
+      <div className="  w-full h-96 landscape:w-1/2 landscape:h-screen ">
+        <Spline scene="https://prod.spline.design/LtKkMAPIcvLKoXUJ/scene.splinecode" />
       </div>
     </div>
   );

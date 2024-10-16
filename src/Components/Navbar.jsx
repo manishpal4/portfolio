@@ -67,7 +67,7 @@ export const Navbar = () => {
               Experience
             </NavLink>
           </li>
-          <a className="text-lg " href="https://chatgpt.com/c/6707b474-aafc-800a-b7eb-2b288f2ef782" target="_blank">Resume</a>
+          <a className="text-lg " href="https://drive.google.com/file/d/1uGJKR1SjruHLujfqJVXuf43UUhrJNRQX/view?usp=sharing" target="_blank">Resume</a>
           
         </ul>
         </div>
